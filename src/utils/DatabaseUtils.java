@@ -1,11 +1,12 @@
-package config;
+package utils;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import config.DatabaseConfig;
 
-public class DAO {
+public class DatabaseUtils {
 
     public Statement sentencia;
     public ResultSet resultado;
