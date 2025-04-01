@@ -17,7 +17,7 @@ public class DatabaseConfig {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connectionStatus = DriverManager.getConnection(url, usuario, password);
-            System.out.println("Conexión exitosa...!! " + database);
+            System.out.println("Conexion exitosa...!! " + database);
         } catch (ClassNotFoundException | SQLException e) {
              System.out.println("Error al conectar: " + e.getMessage());
         }
